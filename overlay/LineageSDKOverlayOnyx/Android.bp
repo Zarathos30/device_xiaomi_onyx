@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "ApertureOverlayOnyx",
+    name: "LineageSDKOverlayOnyx",
     system_ext_specific: true,
 }
