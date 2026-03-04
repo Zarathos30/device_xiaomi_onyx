@@ -396,6 +396,11 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libpowermode-ext-onyx)
 
+# PowerHint Sessions Support for Gaming
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.powerhal.session.enable=true \
+    vendor.powerhal.session.game=true
+
 # Properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/properties/odm_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/odm_CN.prop \

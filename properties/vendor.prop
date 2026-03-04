@@ -243,5 +243,10 @@ wifi.aware.interface=wifi-aware0
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
 
+# Gaming Performance
+ro.vendor.perf.game_mode=1
+persist.sys.game.mode=1
+persist.vendor.game.mode=1
+
 # Update engine
 ro.virtual_ab.compression.threads=true

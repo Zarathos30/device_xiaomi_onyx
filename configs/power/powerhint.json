@@ -814,6 +814,120 @@
             "Node": "sysKernelMsmPerformanceParametersCpuMinFreq",
             "Value": "2:1286400 3:1286400 4:1286400 0:1632000 1:1632000 7:1670400 5:2208000 6:2208000",
             "Duration": 1000
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy0WaltAdaptiveHighFreq",
+            "Value": "1785600",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy0WaltAdaptiveLowFreq",
+            "Value": "1401600",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy2WaltAdaptiveHighFreq",
+            "Value": "1632000",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy5WaltAdaptiveHighFreq",
+            "Value": "1728000",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy2WaltAdaptiveLowFreq",
+            "Value": "1286400",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy5WaltAdaptiveLowFreq",
+            "Value": "1516800",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpufreqPolicy0WaltAdaptiveLevel1",
+            "Value": "1190400",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "procSysWaltSchedBoost",
+            "Value": "2",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpu0CoreCtlMinCpus",
+            "Value": "3",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpu7CoreCtlMinCpus",
+            "Value": "1",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "procSysWaltSchedBusyHysteresisEnableCpus",
+            "Value": "252",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "procSysWaltSchedBusyHystNs",
+            "Value": "39",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpu0CoreCtlEnable",
+            "Value": "0",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "sysDevicesSystemCpuCpu5CoreCtlEnable",
+            "Value": "0",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME_LOADING",
+            "Node": "procSysWaltSchedBoost",
+            "Value": "1",
+            "Duration": 5000
+        },
+        {
+            "PowerHint": "GAME_LOADING",
+            "Node": "sysKernelMsmPerformanceParametersCpuMaxFreq",
+            "Value": "0:2016000 1:2016000 2:3014400 3:3014400 4:3014400 5:2803200 6:2803200",
+            "Duration": 5000
+        },
+        {
+            "PowerHint": "GAME_PLAYING",
+            "Node": "procSysWaltSchedBoost",
+            "Value": "2",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME_PLAYING",
+            "Node": "sysDevicesSystemCpuCpu0CoreCtlMinCpus",
+            "Value": "3",
+            "Duration": 0
+        },
+        {
+            "PowerHint": "GAME_PLAYING",
+            "Node": "sysDevicesSystemCpuCpu7CoreCtlMinCpus",
+            "Value": "1",
+            "Duration": 0
         }
     ]
 }
